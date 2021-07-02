@@ -23,5 +23,18 @@
 }
 
 /* Positioning Classes */
+.column {
+  float: left;
+  width: 32%;
+}
 
+.column + .column {
+  margin-left: 2%;
+}
+.column-large {
+  width: 66%;
+}
+.margin-btm {
+  margin-bottom: 20px;
+}
 
